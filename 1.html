@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Explore Theyyam</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wgt@600&family=Robot&display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background: #ffffff;
+                color: #333;
+                line-height: 1.6;
+            }
+            .hero{
+                /* background: url(./IMAGES/wallpapersden.com_wyoming-usa-mountain_2048x1198.jpg); */
+                background: url(./IMAGES/theyyam\ draw.jpg);
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+            }
+            .hero-overlay{
+                /* background: rgba(0, 0, 0, 0.6); */
+                background: #c7c3c5;
+                padding: 2rem 3rem;
+                text-align: center;
+                color: #5e0d0a;
+                border-radius: 15px;
+                max-width: 600px;
+            }
+            .hero h1{
+                font-family: 'Playfair Display',serif;
+                font-size: 3rem;
+                margin-bottom: 0.5rem;
+            }
+            .tagline{
+                font-size: 1.2rem;
+                margin-bottom: 1.5rem;
+                font-family: 'Times New Roman', Times, serif;
+            }
+            .btn{
+                padding: 0.8rem 1.5rem;
+                background-color: #ffa500;
+                color: #000;
+                text-decoration: none;
+                border-radius: 8px;
+                font-weight: bold;
+                transition: background 0.3s;
+            }
+            .btn:hover{
+                background-color: #ff7700;
+            }
+            .info-section{
+                padding: 4rem 1.5rem;
+                /* text-align: center; */
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+            }
+            .info-section h2{
+                font-size: 2rem;
+                font-family: 'Playfair Display', serif;
+                margin-bottom: 2rem;
+            }
+            .cards{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 1.5rem;
+            }
+            .card{
+                background: #f9f9f9;
+                padding: 2rem;
+                border-radius: 12px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                width: 280px;
+                text-decoration: none;
+                color: #000;
+                transition: transform 0.3s, box-shadow 0.3s;
+            }
+            h3{
+                text-align: center;
+            }
+            .card:hover{
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            }
+            footer{
+                background: #333;
+                color: white;
+                text-align: center;
+                padding: 1rem;
+                font-size: 0.9rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="hero">
+            <div class="hero-overlay">
+                <h1>Welcome  <br>
+                to Know more about Theyyam </h1>
+                <!-- <p class="tagline">Where nature,culture,and history meet</p> -->
+                 <p class="tagline">Theyyam is not just a dance - it is the voice of the gods and the soul of Kerala's tradition.</p>
+                <a href="#explore" class="btn">Explore More</a>
+            </div>
+        </header>
+        <section id="explore" class="info-section">
+            <h1> About Theyyam</h1>
+            <p>Theyyam is a spectacular ritual art form that flourishes in the Northern districts of Kerala, especially in Kannur and Kasargod. 
+            Rooted deeply in folk traditions, Theyyam is more than just a performance - it's a living religious tradition that blends dance, music, mime, and spiritual worship. With its vivid costumes, intense makeup, and powerful choreography, Theyyam stands as a profound expression of devotion, folklore, and community identity. <br>
+        The word <i>Theyyam</i> is derived from the Sanskrit  word <i>Daivam</i>, meaning God. Performers are considered incarnations of deities, ancestral spirits, or heroic figures from local myths.
+    When a performer dons the elaborate costume and face paint, they are believed to be temporarily possessed by the divine spirit they represent, and devotees approach them to seek blessings, answers, and healing.</p>
+    <h2>Performance and Rituals</h2>
+    <p>Theyyam is performed in sacred groves(kaavus), village temples, or ancestral homes. The season typically begins in October and continues till May. Each performancefollows rituals, including chanting, drumming (mainly chenda and elathalam), and sometimes fire-walking or sword-wielding dances. The colorful headgear, intricate face paiinting, and rhythmic movements create a mesmerixing experience for spectators.</p>
+<center>    <img src="./IMAGES/face draw.jpg" alt="" width="50%" height="50%" ></center>
+    <p>Theyyam has a long history. "There can be no doubt", say Bridget and Raymond Alchin, "that a very large part of this modern folk religion is extremely ancient and contains traits which originated during the earliest periods of Neolithic, Chalcolithic settlement and expression. <br>
+        Theyyam may have its origins from ancestor worship. It has been observed that a vast majority of the Theyyam deities have their origin from Thiyya and Nair castes. The ancestor worship ritual was later evolved into the elaborate dance ritual that is seen nowadays. Incorporating many other local beliefs. </p>
+            <h1>Different Theyyam</h1>
+            <div class="cards">
+                <a href="./Muchilot.html" class="card">
+                    <img src="./IMAGES/Muchilot-Bhagavathi-Theyyam.webp" alt="" width="250px" height="300px">
+                    <h3>Muchilott Bhagavathi</h3> 
+                </a>
+                <a href="./muthappan.html" class="card">
+                    <img src="./IMAGES/muthappan.jpg" alt="" width="250px" height="300px">
+                    <h3>Muthappan</h3>
+                </a>
+                <a href="./Gulikan.html" class="card">
+                    <img src="./IMAGES/gulikan dhaivam.jpg" alt=""width="250px" height="300px">
+                    <h3>Gulikan</h3>
+                    </a>
+                    <a href="./vishnumoorthi.html" class="card">
+                        <img src="./IMAGES/vishnumoorthi.jpg" alt="" width="250px" height="300px">
+                        <h3>Vishnumoorthi</h3>
+                </a>
+                    <a href="./Kadangot Makkam.html" class="card">
+                        <img src="./IMAGES/Maakkappothi_17.jpg" alt="" width="250px" height="300px">
+                        <h3>Kadangot Makkam</h3>
+                    </a>
+                     <a href="./Vayanat Kulavan.html" class="card">
+                        <img src="./IMAGES/vayanat kulavan.webp" alt="" width="250px" height="300px">
+                        <h3> Vayanat Kulavan</h3>
+                     </a>
+                    <a href="./Kathivanoor Veeran.html" class="card">
+                        <img src="./IMAGES/kathivanoor.jpeg" alt="" width="250px" height="300px">
+                        <h3>Kathivanoor Veeran</h3>
+                    </a>
+                   <a href="./kuttichathan.html" class="card">
+                    <img src="./IMAGES/kuttichatahan sasthappan.jpg" alt="" width="250px" height="300px">
+                    <h3>Kuttichathan</h3>
+                   </a>
+                   <a href="./Thekkan Kariyathan.html" class="card">
+                    <img src="./IMAGES/thekkan kariyathan.jpg" alt="" width="250px" height="300px">
+                    <h3>Thekkan Kariyathan</h3>
+                   </a>
+                   <a href="./pothi.html" class="card">
+                    <img src="./IMAGES/pothi.jpg" alt="" width="250px" height="300px">
+                    <h3>Pothi</h3>
+                   </a>
+                   <a href="./Daivathar.html" class="card">
+                    <img src="./IMAGES/divathar.jpg" alt="" width="250px" height="300px">
+                    <h3>Daivathar</h3>
+                   </a>
+                   <a href="./puliyoor kaali.html" class="card">
+                    <img src="./IMAGES/pk imge.jpg" alt="" width="250px" height="300px">
+                    <h3>Puliyoor Kaali</h3>
+                   </a>
+                   <a href="./raktha chamundi.html" class="card">
+                    <img src="./IMAGES/Rakthachamundi-Theyyam-819x1024.jpg" alt="" width="250px" height="300px">
+                    <h3>Raktha Chamundi</h3>
+                   </a>
+                   <a href="./Elayadath.html" class="card">
+                    <img src="./IMAGES/eb.jpg" alt="" width="250px" height="300px">
+                    <h3>Elayadath Bhagavathi</h3>
+                   </a>
+                  <a href="./Kandanar kelan.html" class="card">
+                    <img src="./IMAGES/kandanar.jpg" alt="" width="250px" height="300px">
+                    <h3>Kandanar Kelan</h3>
+                  </a>
+            
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy;2025 Explore Kannur. All rights are reserved.</p>
+        </footer>
+    </body>
+</html>
