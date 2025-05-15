@@ -12,6 +12,12 @@
                 background: #f4f4f4;
                 color: #333;
             }
+            img{
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto 20px;
+            }
             .container{
                 max-width: 900px;
                 margin: 40px auto;
@@ -20,7 +26,7 @@
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             }
             h1{
-                font-size: 2.5rem;
+                font-size: 2.rem;
                 margin-bottom: 20px;
             }
             p{
@@ -29,7 +35,9 @@
                 margin-bottom: 15px;
             }
             h2{
-                margin-left: 135px;
+               text-align: center;
+               font-size: 1.8rem;
+               margin: 30px 0;
             }
             .back-button{
                 display: inline-block;
@@ -49,23 +57,33 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 gap: 1.5rem;
+                padding: 20px;
             }
             .card{
                 background: #f9f9f9;
-                padding: 2rem;
+                padding: 1rem;
                 border-radius: 12px;
                 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-                width: 280px;
+                flex: 1 1 calc(100% - 40px);
+                max-width: 250px;
                 text-decoration: none;
                 color: #000;
                 transition: transform 0.3s, box-shadow 0.3s;
             }
             h3{
                 text-align: center;
+                font-size: 1.1rem;
+                margin-top: 10px;
             }
             .card:hover{
                 transform: translateY(-5px);
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            }
+            .card img {
+                aspect-ratio: 1/1;
+                width: 100%;
+                height: auto;
+                border-radius: 8px;
             }
 
             footer{
@@ -74,6 +92,33 @@
                 text-align: center;
                 padding: 20px 0;
                 margin-top: 40px;
+            }
+            @media (max-width: 768px){
+                .container{
+                    padding: 20px;
+                    margin: 20px;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .cards{
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .card{
+                    max-width: 90%;
+                }
+                h2{
+                    font-size: 1.5rem;
+                }
+                .back-button{
+                    margin: 15px;
+                    padding: 8px 12px;
+                    font-size: 0.9rem;
+                }
             }
         </style>
     </head>
@@ -134,7 +179,7 @@
                     <h3>Kuttichathan</h3>
                    </a>
                    <a href="./Thekkan Kariyathan.html" class="card">
-                    <img src="./IMAGES/thekkan kariyathan.jpg" alt="" width="250px" height="300px">
+                    <img src="./IMAGES/Kannapuram Thekkan Kariyathan Temple – Kaliyattam – Theyyam Festival.jpg" alt="" width="250px" height="300px">
                     <h3>Thekkan Kariyathan</h3>
                    </a>
                    <a href="./pothi.html" class="card">
@@ -142,11 +187,11 @@
                     <h3>Pothi</h3>
                    </a>
                    <a href="./Daivathar.html" class="card">
-                    <img src="./IMAGES/divathar.jpg" alt="" width="250px" height="300px">
+                    <img src="./IMAGES/daivathar.jpg" alt="" width="250px" height="300px">
                     <h3>Daivathar</h3>
                    </a>
                    <a href="./puliyoor kaali.html" class="card">
-                    <img src="./IMAGES/pk imge.jpg" alt="" width="250px" height="300px">
+                    <img src="./IMAGES/puliyoor.jpg" alt="" width="250px" height="300px">
                     <h3>Puliyoor Kaali</h3>
                    </a>
                    <a href="./raktha chamundi.html" class="card">
